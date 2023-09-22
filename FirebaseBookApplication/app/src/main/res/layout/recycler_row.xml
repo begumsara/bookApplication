@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:background="@drawable/rounded_shape"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/recycler_row_imageView"
+        android:layout_width="118dp"
+        android:layout_height="122dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/description_of_image"
+        android:fontFamily="monospace"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/recycler_row_book_context"
+        android:layout_width="253dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        android:fitsSystemWindows="true"
+        android:focusable="auto"
+        android:focusableInTouchMode="true"
+        android:fontFamily="monospace"
+        android:longClickable="true"
+        android:text="@string/book_context"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/recycler_row_imageView"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/recycler_row_book_name"
+        android:layout_width="252dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:linksClickable="true"
+        android:text="@string/book_name"
+        android:textAlignment="center"
+        android:textColor="#152DAE"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/recycler_row_imageView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recycler_row_username"
+        app:layout_marginBaseline="10dp" />
+
+    <TextView
+        android:id="@+id/recycler_row_book_author"
+        android:layout_width="253dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="1dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:linksClickable="true"
+        android:text="Book Author"
+        android:textAlignment="center"
+        android:textColor="#152DAE"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/recycler_row_book_context"
+        app:layout_constraintEnd_toStartOf="@+id/recycler_row_imageView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recycler_row_book_name"
+        app:layout_marginBaseline="10dp" />
+
+    <TextView
+        android:id="@+id/recycler_row_username"
+        android:layout_width="254dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="monospace"
+        android:linksClickable="true"
+        android:text="@string/username"
+        android:textAlignment="viewStart"
+        android:textColor="#9A2020"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toStartOf="@+id/recycler_row_imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="16dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="-22dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

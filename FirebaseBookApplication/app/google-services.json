@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "490203982114",
+    "project_id": "fir-bookapplication-cab51",
+    "storage_bucket": "fir-bookapplication-cab51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490203982114:android:b428331aea884b3669dd7b",
+        "android_client_info": {
+          "package_name": "com.begumsaraunal.firebasebookapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490203982114-2j44tm1f1sqet89nh9r5iln5m76dn0rj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_ekh9FZ_HmsgjcnngLSauLUaDVt92his"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490203982114-2j44tm1f1sqet89nh9r5iln5m76dn0rj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

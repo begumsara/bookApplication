@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">FirebaseBookApplication</string>
+    <string name="book_context">Book Context</string>
+    <string name="description_of_image">Description of image</string>
+    <string name="book_name">Book Name</string>
+    <string name="username">Username</string>
+    <string name="book_image">book image</string>
+    <string name="write_book_content_here">Write book content here</string>
+    <string name="write_book_name_here">Write book name here</string>
+    <string name="save">Save</string>
+    <string name="please_type_your_email">Please type your email</string>
+    <string name="please_type_your_password">Please type your password</string>
+    <string name="login">Login</string>
+    <string name="i_have_no_account">I have no account</string>
+    <string name="please_type_your_username">Please type your username</string>
+    <string name="please_type_your_email2">Please type your email</string>
+    <string name="please_type_your_password2">Please type your password</string>
+    <string name="register">Register</string>
+    <string name="quot_books_are_a_uniquely_portable_magic_quot_stephen_king_on_writing_a_memoir_of_the_craft">\"Books are a uniquely portable magic.\" – Stephen King, On Writing: A Memoir of the Craft</string>
+    <string name="Library">Library</string>
+    <string name="delete">Delete</string>
+    <string name="quot_books_are_a_uniquely_portable_magic_quot">\"Books are a uniquely portable magic.\"</string>
+    <string name="write_book_author_here">Write book author here</string>
+</resources>

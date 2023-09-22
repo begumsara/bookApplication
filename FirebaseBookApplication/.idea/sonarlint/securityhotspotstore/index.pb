@@ -1,0 +1,27 @@
+
+‚
+Rapp/src/main/java/com/begumsaraunal/firebasebookapplication/view/DeleteActivity.kt,f/6/f61fbc5f4e7bdd01c6e568c2ba3f600ba88060ac
+ƒ
+Sapp/src/main/java/com/begumsaraunal/firebasebookapplication/view/AddBookActivity.kt,6/d/6dfb1a5fd810ff9b04fab9f9e20575a8f494954a
+€
+Papp/src/main/java/com/begumsaraunal/firebasebookapplication/view/UserActivity.kt,8/f/8f2fd9f2f87df75b9948f9e5850c5d40a23db97e
+†
+Vapp/src/main/java/com/begumsaraunal/firebasebookapplication/adapter/RecyclerAdapter.kt,0/b/0ba2b935ea6a2e661d651ca94d151202818cc65b
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+€
+Papp/src/main/java/com/begumsaraunal/firebasebookapplication/view/MainActivity.kt,e/7/e74a1664f79d06bb42508147f4dd32cff7b1192b
+‰
+Yapp/src/main/java/com/begumsaraunal/firebasebookapplication/view/CreateAccountActivity.kt,4/f/4f8d5cc0dc292edfa80665db09c5e423756038c6
+[
++app/src/main/res/layout/activity_delete.xml,f/6/f61c624d782c1485b439e7fb7028872d5d82660c
+Y
+)app/src/main/res/layout/activity_main.xml,7/6/76b07e40f24cce093536731477540f12e7da3cb6
+X
+(app/src/main/res/layout/recycler_row.xml,2/4/2497d604131829b029a077cd4e3aac30965e80c4
+c
+3app/src/main/res/layout/activity_create_account.xml,c/d/cd9ad111cf9ab8607d12280bd4149fe5967f845c
+@
+app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
+y
+Iapp/src/main/java/com/begumsaraunal/firebasebookapplication/model/Book.kt,3/7/37cc8d0b4fb636e91b4cc8b6bca00a9972c34384

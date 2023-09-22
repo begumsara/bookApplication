@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAD6E1"
+    tools:context=".view.DeleteActivity">
+
+    <EditText
+        android:id="@+id/bookNameText"
+        android:layout_width="328dp"
+        android:layout_height="86dp"
+        android:layout_marginBottom="24dp"
+        android:autofillHints="name"
+        android:background="@drawable/blue"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bookAuthorText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/bookAuthorText"
+        android:layout_width="328dp"
+        android:layout_height="86dp"
+        android:layout_marginBottom="24dp"
+        android:autofillHints="name"
+        android:background="@drawable/blue"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bookContextText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/deleteImageView"
+        android:layout_width="202dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/bookNameText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:srcCompat="@drawable/delete" />
+
+    <EditText
+        android:id="@+id/bookContextText"
+        android:layout_width="325dp"
+        android:layout_height="83dp"
+        android:layout_marginBottom="24dp"
+        android:autofillHints="bookname"
+        android:background="@drawable/blue"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/deleteButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="191dp"
+        android:layout_height="83dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/purple"
+        android:fontFamily="monospace"
+        android:onClick="delete"
+        android:text="@string/delete"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/purple"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        app:contentInsetStartWithNavigation="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="?android:attr/homeAsUpIndicator"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:subtitleTextColor="@android:color/white"
+        app:title="DELETE BOOK"
+        app:titleTextColor="@android:color/black" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

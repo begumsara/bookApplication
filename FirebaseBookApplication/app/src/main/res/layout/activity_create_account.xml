@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This XML file defines the interface of a screen where an Android application can register users -->
+
+    <!--  ConstraintLayout is used to specify the placement of elements so that the screen can be organized for different screen sizes. -->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/registerbook"
+    tools:context=".view.CreateAccountActivity">
+
+    <!-- EditText components receive login information from the user such as e-mail, password and username. -->
+    <EditText
+        android:id="@+id/mailText"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/main"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="@string/please_type_your_email2"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/passwordText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/main"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="@string/please_type_your_password2"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/usernameText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/usernameText"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/main"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="@string/please_type_your_username"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/registerButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- The Button component is used to start the user's registration process. -->
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="210dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/button"
+        android:fontFamily="monospace"
+        android:onClick="register"
+        android:text="@string/register"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

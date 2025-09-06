@@ -1,7 +1,7 @@
 # Book Application (Kotlin + Firebase)
 
-Book Application is an **Android (Kotlin) + Firebase based mobile application** where users can add and manage books.  
-This project brings together key technologies such as **Authentication**, **Firestore Database**, **Cloud Storage** and **RecyclerView** in the mobile development process.  
+Book Application is an **Android (Kotlin) + Firebase-based mobile application** where users can add and manage books.  
+This project brings together key technologies such as **Authentication**, **Firestore Database**, **Cloud Storage**, and **RecyclerView** in the mobile development process.  
 
 ---
 
@@ -34,3 +34,8 @@ To run the project:
 1. Clone the repo:  
    ``bash
  git clone https://github.com/begumsara/bookApplication.git
+
+---
+
+## 📜 License
+This project is licensed under the MIT License. 
